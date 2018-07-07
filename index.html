@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Week 5 Assignment</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />-->
+        <link rel="icon" href="img/film.jpg">
+
+   <style type="text/css">
+
+        body {
+            width: 100%;
+            height: 100%;
+            background:url(img/film.jpg)
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+       .header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	color: white;
+	background: black;
+	line-height: 3rem;
+	transform: translateY(0);
+	transform: translate3d(0,0,0); 
+	transition: .3% transform;
+	backface-visibility: hidden;
+}
+
+.header h1{
+	float: left;
+	font-size: 1.5rem;
+	margin: 0 0 0 1rem;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.header nav{
+	float: right;
+	font-size: 1.2rem;
+}
+
+.header nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.header nav li{
+	display: inline-block;
+	padding: 0 1.1rem;
+	cursor: pointer;
+}
+
+.header nav li:hover{
+	background: #aaa;
+}
+
+  .class {
+
+    font-size: 40px;
+    top: 40px;
+
+        }
+
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column {
+            float: left;
+            width: 33%
+            padding: 10px;
+            height: 300px;
+        }
+
+        .logo{
+			width: 100px;
+			padding: 0px;
+			margin-left: 0px;
+			margin-top: 0px;
+
+		}
+
+        .fall {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+       /* Shold be removed. Only for demonstration */
+}
+.fall h1{
+    text-transform: uppercase;
+    font-family: Times, Helvetica, sans-serif;
+    float: left;
+}
+.fall ul{
+    margin: 0;
+    padding: 0;
+}
+
+.fall li{
+    float: left;
+    text-align: center;
+    display: inline-block;
+    padding: 0 1.1rem;
+    line-height: 6rem;
+    cursor: pointer;
+    margin-left: 45px;
+    font-size: 22px;
+}
+
+.action{
+
+	float: left;
+	padding: 5px
+	left: 20px;
+}
+
+   </style>     
+
+</head>
+
+<body>
+
+<div id="first-section">
+    
+    <header class="header">
+
+        <h1><img src="img/logo.png" class="logo"></h1>
+        
+        <nav>
+            <ul>
+                <a href="index.html">Home</a></li>
+                <a href="#">Movies</a></li>
+                <a href="#">Search</a></li>
+                <li> <form class="make" action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                </form></li>
+                
+            </ul>
+        </nav>  
+
+    </header>
+    </div>
+
+    
+    <Section>
+    
+     <h1>Welcome to Dan Film Rentals</h1>
+
+     <p>We bring you the Latest films.</p> 
+
+       <h2>Featured Films</h2>
+
+     <div class="Movies">
+
+          <h2>Action</h2>
+
+          <div class="films">
+          
+         <div class="action">	
+           <a href="#"> <img src="img/film1.jpg" alt="Action Movie" style="width:10%"></a>
+            <figcaption><b>Rambo</b></figcaption>
+        </div>
+
+        <div class="action">
+            <a href="#"> <img src="img/film2.jpg" alt="Action Movie" style="width:10%"></a>
+            <figcaption><b>Incoming</b></figcaption>
+          </div>
+
+          <div class="action">
+           <a href="#"> <img src="img/film3.jpg" alt="Action Movie" style="width:10%"></a>
+            <figcaption><b>Maze Runner</b></figcaption>
+            	
+            </div>
+
+            <div class="action">
+            <a href="#"> <img src="img/film4.jpg" alt="Action Movie" style="width:10%"></a>
+            <figcaption><b>Deadpool 2</b></figcaption> 	
+            </div>
+
+          </div>
+
+
+           <div class="romance1">
+
+          <h2>Romance</h2>
+
+         <div class="romance">
+           <a href="#"> <img src="img/film6.jpg" alt="Romance" style="width:10%"></a>
+            <figcaption><b>Regret Me Not</b></figcaption>
+           </div> 
+
+           <div class="romance">
+            <a href="#"> <img src="img/film7.jpg" alt="Romance" style="width:10%"></a>
+            <figcaption><b>The Best of Me</b></figcaption>
+        </div>
+
+        	<div class="romance">
+            <a href="#"> <img src="img/film8.jpg" alt="Romance" style="width:10%"></a>
+            <figcaption><b>Me Before You</b></figcaption>
+        </div>
+            
+            <div class="romance">
+            <a href="#"> <img src="img/film9.jpg" alt="Romance" style="width:10%"></a>
+            <figcaption><b>Titanic</b></figcaption>	
+        </div>
+
+        </div>
+
+
+			
+<h2>Comedy</h2>
+
+<div class="Comedy">
+
+		<div class="Comedy1">
+           <a href="#"> <img src="img/film10.jpg" alt="Comedy" style="width:10%"></a>
+            <figcaption><b>Little Man</b></figcaption>
+        </div>
+
+        <div class="Comedy1">
+            <a href="#"> <img src="img/film11.jpg" alt="Comedy" style="width:10%"></a>
+            <figcaption><b>Pitch Perfect 2</b></figcaption>
+        </div>
+
+        <div class="Comedy1">
+ 			<a href="#"> <img src="img/film12.jpg" alt="Comedy" style="width:10%"></a>
+            <figcaption><b>Duff</b></figcaption>
+          </div>
+            
+        <div class="Comedy1">
+            <a href="#"> <img src="img/film13.jpg" alt="Comedy" style="width:10%"></a>
+            <figcaption><b>Moms Night Out</b></figcaption>
+
+        </div>
+
+    </div>
+      
+
+
+  <div class="middle">
+    <h1 id="videos">New Release</h1>
+    <div class="latest">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/_AkdD1UHvQI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     </div>
+     <div class="latest">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eERY-4RcpjQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="latest">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/1gR_B-SOe1E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ </div>
+
+    <div class="latest">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/37fI0iOdfwA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+ </div>
+
+   <div class="fall" style="background-color: #17182B;">
+        
+            <ul>
+                 <a href="#"><li>About Us </li></a>
+                 <a href="#"><li>Contact </li></a>
+                <a href="#"><li>Services</li></a>
+                
+            </ul>
+  </div>
+       
+
+        <footer>
+             <p>&copy;2018 Dan Film Rentals</p>
+        </footer>
+
+</body>
+</html>
+
+</body>
+
+
+</html>

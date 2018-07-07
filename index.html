@@ -14,10 +14,6 @@
         body {
             width: 100%;
             height: 100%;
-            background:url(img/film.jpg)
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
             margin: 0;
             padding: 0;
         }
@@ -72,6 +68,50 @@
 
         }
 
+        form.make input[type=text] {
+  			padding: 4px;
+  			font-size: 17px;
+ 			border: 1px solid grey;
+  			width: 70%;
+  			background: #f1f1f1;
+		}
+
+		form.make button {
+  			width: 20%;
+ 			padding: 4px;
+  			background: #2196F3;
+			color: white;
+  			font-size: 17px;
+  			border: 1px solid grey;
+  			border-left: none; 
+  			cursor: pointer;
+		}
+
+		form.make button:hover {
+  			background: #0b7dda;
+		}
+
+
+		form.make::after {
+  			content: "";
+  			clear: both;
+		}
+
+		section{
+ 			padding: 7rem 2rem;
+ 			color: black;
+		}
+		section p{
+ 			font-size: 20px;
+ 			line-height: 2rem;
+ 		}
+
+ 		.first {
+
+ 			text-align: center;
+ 			font-size: 40px;
+ 			line-height: 0.5rem;
+ 		}
 
 
         .row:after {
@@ -95,34 +135,50 @@
 
 		}
 
-        .bootom {
+        .bottom {
     		float: left;
     		width: 100%;
     		padding: 10px;
-    		height: 50px;
+    		height: 40px;
        
 		}
-		.bootom h1{
+		.bottom h1{
     		text-transform: uppercase;
     		font-family: Times, Helvetica, sans-serif;
     		float: left;
 		}
 	
-		.bootom ul{
+		.bottom ul{
     		margin: 0;
     		padding: 0;
+    		
 		}
 
-		.bootom li{
+		.bottom li{
     		float: left;
     		text-align: center;
     		display: inline-block;
-   			 padding: 0 1.1rem;
-    		line-height: 6rem;
+   			padding: 0 1rem;
+    		line-height: 0.5rem;
     		cursor: pointer;
     		margin-left: 45px;
     		font-size: 22px;
 		}
+
+		footer{
+ 			position: fixed;
+ 			left: 0;
+ 			right: 0;
+ 			width: 100%;
+ 			height:50px;
+ 			bottom: 0;
+ 			background-color: #934410;
+ 			color: white;
+ 			text-align: center;
+ 			line-height: 2rem;
+ 			
+
+ 		}
 
 
 
@@ -157,7 +213,7 @@
     
     <Section>
     
-     <h1>Welcome to Dan Film Rentals</h1>
+     <h1 class="first">Welcome to Dan Film Rentals</h1>
 
      <p>We bring you the Latest films.</p> 
 
@@ -250,9 +306,9 @@
       
 
 
-  <div class="middle">
+  <div class="mid">
 
-    <h1 id="videos">New Release</h1>
+    <h1 id="videos">Trending Movies</h1>
     <div class="latest">
          <iframe width="560" height="315" src="https://www.youtube.com/embed/_AkdD1UHvQI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
      </div>

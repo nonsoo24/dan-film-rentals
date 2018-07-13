@@ -47,7 +47,6 @@
  			width: 20%;
  		}
 
-<<<<<<< HEAD:css/index.css
  		.login {
 
  			width: 50%;
@@ -56,8 +55,15 @@
 
  		}
 
-=======
->>>>>>> 652ec610299bafe3b19dc7efb160fc23f63c3fc3:css/index.css
+        .contact {
+
+            width: 80%;
+            margin-left: 100px;
+            padding: 50px;
+
+        }
+
+
  		figcaption{
 			text-align: center;
 			color: #0ff089;
@@ -156,6 +162,6 @@
  			color: white;
  			text-align: center;
  			line-height: 2rem;
- 			
+ 	
 
  		}

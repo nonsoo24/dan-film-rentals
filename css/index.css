@@ -1,53 +1,15 @@
+		
 		body {
             width: 100%;
             height: 100%;
+            background-image: url(img/display.jpg);
+			background-size: cover;
+			background-attachment: fixed;
             margin: 0;
             padding: 0;
         }
 
-       .header{
-			position: fixed;
-			left: 0;
-			top: 0;
-			width: 100%;
-			height: 50px;
-			color: white;
-			background: black;
-			line-height: 3rem;
-			transform: translateY(0);
-			transform: translate3d(0,0,0); 
-			transition: .3% transform;
-			backface-visibility: hidden;
-		}
-
-		.header h1{
-			float: left;
-			font-size: 1.5rem;
-			margin: 0 0 0 1rem;
-			padding: 0;
-			text-transform: uppercase;
-		}
-
-		.header nav{
-			float: right;
-			font-size: 1.2rem;
-		}
-
-		.header nav ul{
-			margin: 0;
-			padding: 0;
-		}
-
-		.header nav li{
-			display: inline-block;
-			padding: 0 1.1rem;
-			cursor: pointer;
-		}
-
-		.header nav li:hover{
-			background: #aaa;
-		}
-
+	
  		.class {
 
     		font-size: 40px;
@@ -55,28 +17,54 @@
 
         }
 
-        form.make input[type=text] {
-  			padding: 4px;
-  			font-size: 16px;
- 			border: 1px solid black;
-  			width: 65%;
-  			background: #FFFFFF;
-		}
+        .first {
 
-		section{
- 			padding: 7rem 2rem;
+        	padding: 50px;
+        }
+
+
+		section {
+ 			padding: 5rem 2rem;
  			color: white;
  		}
-		section p{
+		section p {
  			font-size: 20px;
  			line-height: 2rem;
  		}
 
+ 		.action {
+
+ 			float: left;
+ 			padding: 15px;
+ 			width: 20%;
+ 		}
+
+
+ 		.new-movies {
+
+ 			float: left;
+ 			padding: 15px;
+ 			width: 20%;
+ 		}
+
+ 		.login {
+
+ 			width: 50%;
+ 			margin-left: 250px;
+ 			padding: 70px;
+
+ 		}
+
+ 		figcaption{
+			text-align: center;
+			color: #0ff089;
+		}
+
 		form.make button {
-  			width: 20%;
- 			padding: 4px;
-  			background: #FFFFFF;
-			color: white;
+  			width: 22%;
+ 			padding: 5px;
+  			background: #0B7DDA;
+			color: ;
   			font-size: 17px;
   			border: 1px solid grey;
   			border-left: none; 
@@ -123,19 +111,12 @@
             height: 300px;
         }
 
-        .logo{
-			width: 100px;
-			padding: 0px;
-			margin-left: 0px;
-			margin-top: 0px;
-
-		}
-
+        
         .bottom {
     		float: left;
     		width: 100%;
     		padding: 10px;
-    		height: 40px;
+    		height: 100px;
        
 		}
 		.bottom h1{
@@ -155,9 +136,9 @@
     		text-align: center;
     		display: inline-block;
    			padding: 0 1rem;
-    		line-height: 0.5rem;
+    		line-height: 2rem;
     		cursor: pointer;
-    		margin-left: 45px;
+    		margin-left: 250px;
     		font-size: 22px;
 		}
 

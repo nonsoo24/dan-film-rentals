@@ -6,9 +6,9 @@
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Week 6 Assignment</title>
+        <title>Week 7 Assignment</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
 
@@ -43,7 +43,13 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login.html">Login</a>
+        <a class="nav-link" href="login.html">Log In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -57,56 +63,79 @@
 <body>
        
 
-  <div class="container">
+  <p id="#films">&nbsp;</div>
+    <p id="#films">&nbsp;</div>
 
-    <div class="login">
+
+       
+
+<div class="login-page">
+ <div class="form">
     
-<form>
-
-   <div class="form-group">
-
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="formcontrol" placeholder="Email address">
-  </div>
-
-   <div class="form-group">
-    <label for="subject">Password</label>
-    <input type="subject" class="form-control" id="exampleFormControlInput1" placeholder="Password">
-  </div>
-
-  <p><a href="#">Forgot your password?</p> 
- 
-  
-   <div class="form-group">
-    <button type="submit" class="btn btn-primary">Login</button>
-  </div>
+<form class="registeration-form">
+    <input type="text" name="" class="form-control" placeholder="Email">
+      <input type="text" name="" class="form-control" placeholder="Password">
+    <p></p>
+      <button>Login</button>
+   <p class="message">Not Registered? <a href="#">Register</a></p>
+ </form>
   
 
-    <p><a href="#">Create New Account</a></p>
+  <form class="login-form">
+    <input type="text" name="" class="form-control" placeholder="Email"> 
+    <input type="text" name="" class="form-control" placeholder="Full name">
+    <input type="text" name="" class="form-control" placeholder="Username">
+    <input type="text" name="" class="form-control" placeholder="Password">
+    <input type="text" name="" class="form-control" placeholder="Confirm password">
+   <p></p>
+    <button>Create Account</button>
 
-
+   <p class="message">Already Registered? <a href="#">Login</a></p>
+  
 </form>
-</div>
+
  </div>
+</div>
+
+
+ <p id="#films">&nbsp;</div>
+  <p id="#films">&nbsp;</div>
+    <p id="#films">&nbsp;</div>
 
    
+ 
+       <div class="bottom" style="background-color: #17182B;">
+        
+            <ul>
+                 <a href="#"><li>Connect </li></a>
+                 <a href="#"><li>Blog </li></a>
+                <a href="#"><li>Services</li></a>
+                
+            </ul>
+  </div>
+       
+
+
  
         <footer>
              <p>&copy;2018 Dan Film Rentals</p>
         </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script> 
+
+
+<script type="text/javascript">
+  
+  $('.message a').click(function(){
+  $('form').animate({height: "toggle", opacity: "toggle"}, "slow")
+  });
+</script>
+         
 
 </body>
 
-
-
-</html>
-
-</body>
 
 
 </html>

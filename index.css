@@ -114,12 +114,6 @@ body {
         color: white;
         }
 
-        .fil {
-       text-align: left;
-        color: white;
-        
-        }
-
 
         figcaption{
             text-align: center;
@@ -130,11 +124,11 @@ body {
 
             font-family: "Roboto";
             outline: 0;
-            background: green;
+            background: white;
             position: center;
             border: 0;
-            padding: 5px;
-            color: white;
+            padding: 2px;
+            color: black;
             cursor: pointer;
 
         }

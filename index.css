@@ -160,12 +160,13 @@ body {
 
             margin-left: 20px;
             font-size: 30px;
-            font-family: 
+            color: white; 
         }
 
         .trend {
 
              margin-left: 20px;
+             color: white;
         }
 
 
@@ -275,4 +276,10 @@ body {
         .form input {
 
             widith :100%;
+        }
+
+        .year {
+
+            text-align: center;
+            background-color: white;
         }

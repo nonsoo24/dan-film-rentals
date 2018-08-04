@@ -27,7 +27,6 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="index1.php">Home <span class="sr-only"></span></a>
-        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="gallery.php">Gallery</a>

@@ -89,7 +89,7 @@
     <small id="email_error" class="red-text flag-error"></small>
   </div>
 
-  <button name="sub" id="sub" class="btn btn-primary">Send</button>
+  <button name="sub" id="submitForm" class="btn btn-primary">Send</button>
 
       <p id="#films">&nbsp;</div>
   <p id="#films">&nbsp;</div>
@@ -133,27 +133,27 @@
 
 <script type="text/javascript">
 
-$('#sub').click(function() {
+$('#submitForm').click(function() {
 
-  var emailAddress = $('#inputEmail').val();
   var fullName = $('#inputFullname').val();
-  var message = $('#inputMessage').val();
+  var emailAddress = $('#inputEmail').val();
+  
 
   
-   if(emailAddress === "") {
-    $('#email_error').text("Please enter your Email Address");
-  } else {
-    $('#email_error').text("");
-  }
-
 if(fullName === "") {
     $('#fullname_error').text("Please enter your Full Name");
   } else {
     $('#fullname_error').text("");
   }
 
+   if(emailAddress === "") {
+    $('#email_error').text("Please enter your Email Address");
+  } else {
+    $('#email_error').text("");
+  }
 
-  if(emailAddress !== "" && fullName !== "" ) {
+
+  if(fullName !== "" && emailAddress !== "") {
 
     var formValues = {
 

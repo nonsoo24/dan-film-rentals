@@ -190,7 +190,7 @@ body {
             width: 100%;
             padding: 10px;
             height: 100px;
-            background-color: #17182B;
+            background-color: grey;
        
         }
         .bottom h1{
@@ -214,6 +214,7 @@ body {
             cursor: pointer;
             margin-left: 250px;
             font-size: 22px;
+            color: white;
         }
 
         footer{

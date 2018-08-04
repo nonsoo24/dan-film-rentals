@@ -18,7 +18,7 @@
 
               
 <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Dan Film Rentals  <img src="img/logo.png" alt="logo" class="logo"></a>
+  <a class="navbar-brand" href="index.html">Dan Film Rentals  <img src="img/logo.png" alt="logo" class="logo"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,7 +26,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="year.php">Home <span class="sr-only"></span></a>
+        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="gallery.html">Gallery</a>
@@ -61,22 +61,12 @@
 </nav>
 
 
-<main>
-	<p id="#films">&nbsp;</div>
+  <p id="#films">&nbsp;</div>
 
-<div class="container">
-  <div  class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Welcome to Dan Film Rentals</h1>
-    <p class="lead">We bring you Latest movies.</p>
-  <hr class="my-4">
-  <p>We stock a wide range of quality movies at affordable rates for rents. This unique quality made us top 2 out of 100 movie platforms.</p>
-  <a class="btn btn-primary btn-lg" href="index.html" role="button">Home</a>
-  </div>
-</div>  
+<body>
 
 
-<p style="color: white;">
+<p style="color: white; text-align: center">
 
 	<?php  
 		
@@ -101,7 +91,7 @@
 </p>	
 
 
-</main>
+</body>
 
 		<div class="bottom" style="background-color: #17182B;">
         

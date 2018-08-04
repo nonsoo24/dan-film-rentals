@@ -17,7 +17,7 @@
 
                
 <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Dan Film Rentals  <img src="img/logo.png" alt="logo" class="logo"></a>
+  <a class="navbar-brand" href="index.html">Dan Film Rentals  <img src="img/logo.png" alt="logo" class="logo"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -25,31 +25,31 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        <a class="nav-link" href="index1.php">Home <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link" href="gallery.php">Gallery</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="movies.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="movies.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Movies
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="movies.html">Action</a>
-          <a class="dropdown-item" href="movies.html">Romance</a>
-           <a class="dropdown-item" href="movies.html">Comedy</a>
+          <a class="dropdown-item" href="movies.php">Action</a>
+          <a class="dropdown-item" href="movies.php">Romance</a>
+           <a class="dropdown-item" href="movies.php">Comedy</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="movies.html">Others</a>
+          <a class="dropdown-item" href="movies.php">Others</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login.html">Log In</a>
+        <a class="nav-link" href="login.php">Log In</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="contact.php">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
+        <a class="nav-link" href="about.php">About Us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -230,7 +230,7 @@
   </div>
        
  
-        <footer>
+        <footer style="background-color: black">
              <p>&copy;2018 Dan Film Rentals</p>
         </footer>
 

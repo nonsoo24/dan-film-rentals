@@ -76,7 +76,7 @@
         <div class="action"> 
          
            <a href="#"> <img src="img/film1.jpg" alt="Action Movie" style="width:100%"></a>
-            <figcaption><b>Rambo</b><p>Price: $5</p></figcaption><figcaption><button class="rent">Rent</button></figcaption>
+            <figcaption><b>Olympus has fallen</b><p>Price: $5</p></figcaption><figcaption><button class="rent">Rent</button></figcaption>
         </div>
         <div class="action">
             <a href="#"> <img src="img/film2.jpg" alt="Action Movie" style="width:100%"></a>
@@ -222,7 +222,7 @@
  <div class="bottom">
         
             <ul>
-                 <a href="#"><li>Connect </li></a>
+                 <a href="news.php"><li>Subscribe to Newsletter</li></a>
                  <a href="#"><li>Blog </li></a>
                 <a href="#"><li>Services</li></a>
                 

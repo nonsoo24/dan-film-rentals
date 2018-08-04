@@ -26,11 +26,8 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-<<<<<<< HEAD:index1.php
         <a class="nav-link" href="index1.php">Home <span class="sr-only"></span></a>
-=======
         <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
->>>>>>> 83a185b99e9fd7f09e94fa5451799400757844df:index.html
       </li>
       <li class="nav-item">
         <a class="nav-link" href="gallery.php">Gallery</a>

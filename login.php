@@ -63,44 +63,78 @@
 <body>
        
 
-  <p id="#films">&nbsp;</div>
+
     <p id="#films">&nbsp;</div>
 
 
        
 
-<div class="login-page">
- <div class="form">
+<div class="login-page">  
+  <div class="form">
+  <form>
+    <div class="form-group">
+    <label for="exampleInputUsername">Username</label>
+    <input type="email" class="form-control" id="exampleInputUsername" aria-describedby="emailUsername" placeholder="username">
+    <small id="username_error" class="form-text flag-error"></small>
+    </div>
+
+    <div class="form-group">
+    <label for="exampleInputPassword">Password</label>
+    <input type="text" class="form-control" id="exampleInputPassword" aria-decribedby="emailPassword" placeholder="password">
+    <small id="password_error" class="form-text flag-error"></small>
+    </div>
+
+    <div class="form-group">
+    <span id="submitForm" class="btn btn-primary">Login</span>
+    </div>
+     
+    <p>Click Register to display Register Form</p>
+    <p class="message">Not Registered? <a href="#">Register</a></p>
+  </form>
+
+  <form class="registeration-form" method="POST" action="details.php">
+    <div class="form-group">
+    <label for="exampleInputEmail">Email</label>
+    <input type="email" class="form-control" name="ema"   placeholder="Enter email">
+    <small id="email_error" class="form-text flag-error"></small>
+    </div>
+
+    <div class="form-group">
+    <label for="exampleInputFullname">Full-name</label>
+    <input type="text" class="form-control" name="nam"   placeholder="Enter full-name">
+    <small id="fullname_error" class="form-text flag-error"></small>
+    </div>
+
+    <div class="form-group">
+    <label for="exampleInputUsername">Username</label>
+    <input type="text" class="form-control" name="user"   placeholder="Enter Username">
+    <small id="username_error" class="form-text flag-error"></small>
+    </div>
+
+   <div class="form-group">
+    <label for="exampleInputPassword">Password</label>
+    <input type="text" class="form-control" name="pas"   placeholder="Password">
+    <small id="password_error" class="form-text flag-error"></small>
+
+    <div class="form-group">
+    <label for="exampleInputPasswordd">Confirm Password</label>
+    <input type="text" class="form-control" name="passwordd"   placeholder="Password">
+    <small id="passwordd_error" class="form-text flag-error"></small>
     
-<form class="registeration-form">
-    <input type="text" name="" class="form-control" placeholder="Email">
-      <input type="text" name="" class="form-control" placeholder="Password">
-    <p></p>
-      <button>Login</button>
-   <p class="message">Not Registered? <a href="#">Register</a></p>
- </form>
-  
-
-  <form class="login-form">
-    <input type="text" name="" class="form-control" placeholder="Email"> 
-    <input type="text" name="" class="form-control" placeholder="Full name">
-    <input type="text" name="" class="form-control" placeholder="Username">
-    <input type="text" name="" class="form-control" placeholder="Password">
-    <input type="text" name="" class="form-control" placeholder="Confirm password">
-   <p></p>
-    <button>Create Account</button>
-
-   <p class="message">Already Registered? <a href="#">Login</a></p>
-  
-</form>
-
- </div>
-</div>
+    <div class="form-group">
+    <button name="sub" type="submit" class="btn btn-primary">Create Account</button>
+    </div>
+      
+    <p>Click Login to display Login Form</p>
+    <p class="message">Already Registered? <a href="#">Login</a></p>
+  </form>
+  </div>
+</div> 
 
 
  <p id="#films">&nbsp;</div>
   <p id="#films">&nbsp;</div>
-    <p id="#films">&nbsp;</div>
+
 
    
  
@@ -127,10 +161,51 @@
 
 
 <script type="text/javascript">
-  
-  $('.message a').click(function(){
-  $('form').animate({height: "toggle", opacity: "toggle"}, "slow")
-  });
+$('.message a').click(function(){
+$('form').animate({height: "toggle", opacity: "toggle"}, "slow")
+});
+
+$('#submitForm').click(function( event ){
+
+  var userName = $('#exampleInputUsername').val();
+  var fullName = $('#exampleInputFullname').val();
+  var emailAddress = $('#exampleInputEmail').val();
+  var password = $('#exampleInputPassword').val();
+  var passwordd = $('#exampleInputPasswordd').val();
+
+
+
+  if (userName === "") {
+    $('#username_error').text('Username is required');
+  } else {
+    $('#username_error').text('');
+  }
+
+  if (fullName === "") {
+    $('#fullname_error').text('Please enter your username or full name');
+  } else {
+    $('#fullname_error').text('');
+  }
+
+  if (emailAddress === "") {
+    $('#email_error').text('Please enter your email address');
+  } else {
+    $('#email_error').text('');
+  }
+
+  if (password === "") {
+    $('#password_error').text('Password is required')
+  } else {
+    $('#password_error').text('');
+  }
+
+  if (passwordd === "") {
+    $('#passwordd_error').text('Please confirm your password')
+  } else {
+    $('#passwordd_error').text('');
+  }
+
+}); 
 </script>
          
 

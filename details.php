@@ -1,21 +1,21 @@
 <?php
     session_start();
     // DATABASE HOST NAME
-    define('DBHOST', 'db4free.net:3306');
+   $host='db4free.net:3306';
     // DATABASE NAME
-    define('DBNAME', 'chukwurah');
+    $username='root';
     // DATABASE USER NAME
-    define('DBUSER', 'nonsoo');
+    $password='daniel1994';
     // DATABASE PASS
-    define('DBPASS', 'daniel1994');
+    $databaseName='nonsoo';
     
     //Connect to database
-    $connect = mysqli_connect(DBHOST, DBUSER, DBPASS);
+    $connect = mysqli_connect($host, $username, $password);
     if(!$connect){
         die("Could not connect to database ".mysqli_error($connect));
     }
     //Select database
-    $select_db = mysqli_select_db($connect, DBNAME);
+    $select_db = mysqli_select_db($connect, nonsoo);
     if(!$select_db){
         die("Could not select database ".mysqli_error($connect));
     }
@@ -27,7 +27,7 @@ if (isset($_POST['sub'])) {
     $pas=$_POST['pas'];
     
     
-    $sql = "INSERT INTO users (email,name,user,password) VALUES ('$ema','$nam','$user','$pas')";
+    $sql = "INSERT INTO users (email,fullname,user,password) VALUES ('$ema','$nam','$user','$pas')";
     $result=mysqli_query($connect, $sql);
       $error = '<label class="text-success">Thank you for signing up</label>';
 }

@@ -15,7 +15,7 @@
         die("Could not connect to database ".mysqli_error($connect));
     }
     //Select database
-    $select_db = mysqli_select_db($connect, nonsoo);
+    $select_db = mysqli_select_db($connect, DBNAME);
     if(!$select_db){
         die("Could not select database ".mysqli_error($connect));
     }

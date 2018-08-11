@@ -5,7 +5,7 @@
     // DATABASE NAME
     define('DBNAME', 'chukwurah');
     // DATABASE USER NAME
-    define('DBUSER', 'root');
+    define('DBUSER', 'nonsoo');
     // DATABASE PASS
     define('DBPASS', 'daniel1994');
     

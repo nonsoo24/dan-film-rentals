@@ -1,16 +1,16 @@
 <?php
     session_start();
     // DATABASE HOST NAME
-   $host='db4free.net:3306';
+    define('DBHOST', 'db4free.net:3306');
     // DATABASE NAME
-    $username='root';
+    define('DBNAME', 'chukwurah');
     // DATABASE USER NAME
-    $password='daniel1994';
+    define('DBUSER', 'nonsoo');
     // DATABASE PASS
-    $databaseName='nonsoo';
+    define('DBPASS', 'daniel1994');
     
     //Connect to database
-    $connect = mysqli_connect($host, $username, $password);
+     $connect = mysqli_connect(DBHOST, DBUSER, DBPASS);
     if(!$connect){
         die("Could not connect to database ".mysqli_error($connect));
     }

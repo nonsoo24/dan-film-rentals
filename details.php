@@ -5,7 +5,7 @@
     // DATABASE NAME
     define('DBNAME', 'chukwurah');
     // DATABASE USER NAME
-    define('DBUSER', 'nonsoo');
+    define('DBUSER', 'root');
     // DATABASE PASS
     define('DBPASS', 'daniel1994');
     
@@ -27,11 +27,11 @@ if (isset($_POST['sub'])) {
     $pas=$_POST['pas'];
     
     
-    $sql = "INSERT INTO users (email,fullname,user,password) VALUES ('$ema','$nam','$user','$pas')";
+    $sql = "INSERT INTO film rentals (email,fullname,user,password) VALUES ('$ema','$nam','$user','$pas')";
     $result=mysqli_query($connect, $sql);
       $error = '<label class="text-success">Thank you for signing up</label>';
 }
 else{
-    $error = '<label class="text-success">Please try again</label>';
+    echo "stringgggg";
 }
 ?>

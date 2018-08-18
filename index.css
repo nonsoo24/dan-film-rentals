@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 @media screen and (min-width: 500px) {
     .yes {
         opacity: 1;
@@ -10,8 +9,6 @@
    } 
 
 
-=======
->>>>>>> ac9f949c14688476e2ecb1fa9bca1e13bd8aac94
 body {
 
     width: 100%;
@@ -24,8 +21,8 @@ body {
 
     }
 
-	
- 		.class {
+    
+        .class {
 
             font-size: 40px;
             top: 40px;
@@ -45,14 +42,11 @@ body {
             padding: 50px;
         }
 
-<<<<<<< HEAD
         .title{
             text-align: center; 
             color: white; 
             font-size: 60px
         }
-=======
->>>>>>> ac9f949c14688476e2ecb1fa9bca1e13bd8aac94
 
         section {
             padding: 5rem 2rem;
@@ -70,10 +64,7 @@ body {
             width: 20%;
         }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> ac9f949c14688476e2ecb1fa9bca1e13bd8aac94
         .release {
 
             float: left;
@@ -81,24 +72,7 @@ body {
             width: 20%;
         }
 
-<<<<<<< HEAD
        
-=======
-        .romance {
-
-            float: left;
-            padding: 15px;
-            width: 20%;
-        }
-
-        .comedy {
-
-            float: left;
-            padding: 15px;
-            width: 20%;
-        }
-
->>>>>>> ac9f949c14688476e2ecb1fa9bca1e13bd8aac94
 
         .new-movies {
 
@@ -131,34 +105,19 @@ body {
             color: white;
         }
 
-<<<<<<< HEAD
 
-=======
-        .film-title1 {
-
-        text-align: center;
-        color: white;
-        }
->>>>>>> ac9f949c14688476e2ecb1fa9bca1e13bd8aac94
 
          .film-title {
 
         text-align: left;
         color: white;
-<<<<<<< HEAD
          font-size: 35px;
-=======
->>>>>>> ac9f949c14688476e2ecb1fa9bca1e13bd8aac94
         }
 
 
         figcaption{
             text-align: center;
-<<<<<<< HEAD
             color: red;
-=======
-            color: white;
->>>>>>> ac9f949c14688476e2ecb1fa9bca1e13bd8aac94
         }
 
         .rent {
@@ -172,18 +131,11 @@ body {
             color: black;
             cursor: pointer;
 
-<<<<<<< HEAD
 
         }
 
          .rent:hover,.rent:active{
             background-color: #F1A699;
-=======
-        }
-
-         .rent:hover,.rent:active{
-            background-color: blue;
->>>>>>> ac9f949c14688476e2ecb1fa9bca1e13bd8aac94
         } 
         
 
@@ -328,12 +280,4 @@ body {
             widith :100%;
         }
 
-<<<<<<< HEAD
         
-=======
-        .year {
-
-            text-align: center;
-            background-color: white;
-        }
->>>>>>> ac9f949c14688476e2ecb1fa9bca1e13bd8aac94

@@ -55,6 +55,30 @@
 
         }
 
+        .action {
+ 			float: left;
+ 			width: 20%;
+ 			padding: 10px;
+		}
+
+		.romance {
+ 			float: left;
+ 			width: 20%;
+ 			padding: 10px;
+		}
+
+		.comedy {
+ 			float: left;
+ 			width: 20%;
+ 			padding: 10px;
+		}
+
+		#funny{
+			text-align: left;
+			padding: 10px;
+
+		}
+
         form.make input[type=text] {
   			padding: 4px;
   			font-size: 16px;
@@ -81,6 +105,12 @@
   			border: 1px solid grey;
   			border-left: none; 
   			cursor: pointer;
+		}
+
+		.new-movies {
+ 			float: left;
+ 			width: 20%;
+			padding: 10px;
 		}
 
 		form.make button:hover {

@@ -1,0 +1,283 @@
+
+@media screen and (min-width: 500px) {
+    .yes {
+        opacity: 1;
+    }
+    .no {
+
+     opacity: 0;
+   } 
+
+
+body {
+
+    width: 100%;
+    height: 100%;
+    background-image: url(img/real.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+    }
+
+	
+ 		.class {
+
+            font-size: 40px;
+            top: 40px;
+
+        }
+
+        .logo{
+            width: 30px;
+            padding: 0px;
+            margin-left: 0px;
+            margin-top: 0px;
+    }
+
+
+        .first {
+
+            padding: 50px;
+        }
+
+        .title{
+            text-align: center; 
+            color: white; 
+            font-size: 60px
+        }
+
+        section {
+            padding: 5rem 2rem;
+            color: white;
+        }
+        section p {
+            font-size: 20px;
+            line-height: 2rem;
+        }
+
+        .action {
+
+            float: left;
+            padding: 15px;
+            width: 20%;
+        }
+
+
+        .release {
+
+            float: left;
+            padding: 20px 0px 0px 20px;
+            width: 20%;
+        }
+
+       
+
+        .new-movies {
+
+            float: left;
+            padding: 15px;
+            width: 20%;
+        }
+
+        .login {
+
+            width: 50%;
+            margin-left: 250px;
+            padding: 70px;
+
+        }
+
+        .contact {
+
+            width: 80%;
+            margin-left: 100px;
+            padding: 50px;
+            margin-top:10px;
+            background-color: white;
+
+        }
+
+        .comments{
+
+            margin-top: 40px;
+            color: white;
+        }
+
+
+
+         .film-title {
+
+        text-align: left;
+        color: white;
+         font-size: 35px;
+        }
+
+
+        figcaption{
+            text-align: center;
+            color: red;
+        }
+
+        .rent {
+
+            font-family: "Roboto";
+            outline: 0;
+            background: white;
+            position: center;
+            border: 0;
+            padding: 2px;
+            color: black;
+            cursor: pointer;
+
+
+        }
+
+         .rent:hover,.rent:active{
+            background-color: #F1A699;
+        } 
+        
+
+        .first {
+
+            text-align: center;
+            font-size: 40px;
+            line-height: 0.5rem;
+        }
+
+        .first1 {
+
+           width: 80%;
+            margin-left: 100px;
+            padding: 50px;
+            margin-top:10px;
+            background-color: white;
+
+
+        }
+
+        .recent {
+
+            margin-left: 20px;
+            font-size: 30px;
+            color: white; 
+        }
+
+        .trend {
+
+             margin-left: 20px;
+             color: white;
+        }
+
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column {
+            float: left;
+            width: 33%
+            padding: 10px;
+            height: 300px;
+        }
+
+        
+        .bottom {
+            float: left;
+            width: 100%;
+            padding: 10px;
+            height: 100px;
+            background-color: grey;
+       
+        }
+        .bottom h1{
+            text-transform: uppercase;
+            font-family: Times, Helvetica, sans-serif;
+            float: left;
+        }
+    
+        .bottom ul{
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        .bottom li{
+            float: left;
+            text-align: center;
+            display: inline-block;
+            padding: 0 1rem;
+            line-height: 2rem;
+            cursor: pointer;
+            margin-left: 250px;
+            font-size: 22px;
+            color: white;
+        }
+
+        footer{
+            position: fixed;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height:50px;
+            bottom: 0;
+            background-color: #934410;
+            color: white;
+            text-align: center;
+            line-height: 2rem;
+    
+
+        }
+
+        .form {
+
+            background-color: white;
+            z-index: 1;
+            max-width: 400px;
+            margin: 0 auto 100px;
+            padding: 50px;
+            position: relative;
+
+        }
+
+        .form button{
+            font-family: "Roboto";
+            text-transform: uppercase;
+            outline: 0;
+            background: blue;
+            width: 100%;
+            position: center;
+            border: 0;
+            padding: 15px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .form button:hover,.form button:active{
+            background-color: blue;
+        } 
+
+        .form .message{
+            margin: 50px 50px 50px 0px;
+            font-size: 18px;
+        }
+
+        .form .message a{
+            color: blue;
+            text-decoration: none;
+        }  
+
+        .form .registeration-form{
+            display: none;
+        }
+
+        .form input {
+
+            widith :100%;
+        }
+
+        

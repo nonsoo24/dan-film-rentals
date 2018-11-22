@@ -1,4 +1,15 @@
 
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 500px) {
+    .yes {
+        opacity: 1;
+    }
+    .no {
+
+     opacity: 0;
+   } 
+>>>>>>> refs/remotes/origin/master
 
 
 body {
@@ -13,8 +24,8 @@ body {
 
     }
 
-	
- 		.class {
+    
+        .class {
 
             font-size: 40px;
             top: 40px;
@@ -272,6 +283,7 @@ body {
             widith :100%;
         }
 
+<<<<<<< HEAD
         /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...} 
 
@@ -286,3 +298,6 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
+=======
+        
+>>>>>>> refs/remotes/origin/master

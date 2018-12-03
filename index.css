@@ -1,17 +1,4 @@
 
-<<<<<<< HEAD
-=======
-@media screen and (min-width: 500px) {
-    .yes {
-        opacity: 1;
-    }
-    .no {
-
-     opacity: 0;
-   } 
->>>>>>> refs/remotes/origin/master
-
-
 body {
 
     width: 100%;
@@ -283,8 +270,7 @@ body {
             widith :100%;
         }
 
-<<<<<<< HEAD
-        /* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...} 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -298,6 +284,4 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
-=======
-        
->>>>>>> refs/remotes/origin/master
+
